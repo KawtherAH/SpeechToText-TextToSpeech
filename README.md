@@ -1,5 +1,5 @@
-# Speech to Text &amp;&amp; Text to (Speech Using IBM Watson Services)
-In this task we will use  IBM Watson Service & Python to convert speech to text (STT) and save it as .txt file then we will convert text to speech (TTS) and save it as .mp3 file.
+# Speech to Text &amp;&amp; Text to Speech 
+In this task we will use **IBM Watson Service & Python** to convert speech to text **(STT)** and save it as .txt file then we will convert text to speech **(TTS)** and save it as .mp3 file.
 
 ## Speech To Text 
 **Sources:**
