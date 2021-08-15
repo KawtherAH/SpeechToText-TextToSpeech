@@ -5,7 +5,7 @@ In this task we will use **IBM Watson Service & Python** to convert speech to te
 **Sources:**
 
 > * [Live Speech to Text with Watson Speech to Text and Python](https://www.youtube.com/watch?v=YCyuZM454_I&t=243s)
-> * [ Speech to Text - IBM Cloud API Docs](https://cloud.ibm.com/apidocs/speech-to-text)
+> * [ Speech to Text - IBM Cloud API Docs](https://cloud.ibm.com/apidocs/speech-to-text?code=python)
 
 ## Text To Speech
 **Sources:**
