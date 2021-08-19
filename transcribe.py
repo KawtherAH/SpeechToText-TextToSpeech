@@ -143,14 +143,14 @@ def on_message(self, msg):
         TxtMsg = data['results'][0]['alternatives'][0]['transcript']
         print(TxtMsg)
         # This Save Speech as Text
-        with open ('STTOutput.txt', 'w') as file:
+        with open ('OutputAsText.txt', 'w') as file:
             file.write(TxtMsg)
         # This Save Text as Speech
-        with open('STTOutput.txt', 'r') as f:
+        with open('OutputAsText.txt', 'r') as f:
             text = f.readlines()
         text = [line.replace('\n','') for line in text]
         text = ''.join(str(line) for line in text)
-        with open('./SpeechOutput.mp3', 'wb') as audio_file:
+        with open('./OutputAsSpeech.mp3', 'wb') as audio_file:
             res = tts.synthesize(text, accept='audio/mp3', voice='en-GB_JamesV3Voice').get_result()
             audio_file.write(res.content)
 
